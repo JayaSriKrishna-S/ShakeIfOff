@@ -362,7 +362,7 @@ public class MainActivity extends AppCompatActivity {
     private final SensorEventListener mSensorListener = new SensorEventListener() {
         @Override
         public void onSensorChanged(SensorEvent event) {
-            float x = event.values[0];
+            float x = event.values[0];h
             float y = event.values[1];
             float z = event.values[2];
             mAccelLast = mAccelCurrent;
